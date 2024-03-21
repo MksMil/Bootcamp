@@ -1,23 +1,92 @@
-//
-//  ContentView.swift
-//  Bootcamp
-//
-//  Created by Миляев Максим on 02.03.2024.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack{
+            
+            List{
+                Section("PROSUI") {
+                    NavigationLink("Custom Layout") {
+                        CustomLayoutPROSUI()
+                    }
+                    NavigationLink("Explore Tab") {
+                        ExploreTab()
+                    }
+                    NavigationLink("PrefferencesPROSUI") {
+                        PrefferencesPROSUI()
+                    }
+                    NavigationLink("EnvironmentBtCmp") {
+                        EnvironmentBtCmp()
+                    }
+                    NavigationLink("EnvObjAndEnvValue") {
+                        EnvObjAndEnvValue()
+                    }
+                    NavigationLink("Unanimatable") {
+                        Unanimatable()
+                    }
+                    NavigationLink("TransactionUseless") {
+                        TransactionUseless()
+                    }
+                    NavigationLink("CircleGrid") {
+                        ResultView()
+                    }
+                    NavigationLink("HeartAnimation") {
+                        HeartAnimation()
+                    }
+                    NavigationLink("ParentsAndChildren") {
+                        ParentsAndChildren()
+                    }
+                    NavigationLink("IdentityUnderstanding") {
+                        IdentityUnderstanding()
+                    }
+                    NavigationLink("chattest") {
+                        chattest()
+                    }
+                }
+                Section("SUI thinking") {
+                    NavigationLink("Animations") {
+                        Animations()
+                    }
+                    NavigationLink("CustomAnimations") {
+                        CustomAnimations()
+                    }
+                    NavigationLink("PathAnimation") {
+                        PathAnimation()
+                    }
+                    NavigationLink("ButtonStyleBtCmp") {
+                        ButtonStyleBtCmp()
+                    }
+                    NavigationLink("ColapsableHStack") {
+                        ColapsableHStack()
+                    }
+                    NavigationLink("CustomBadge") {
+                        CustomBadge()
+                    }
+                    NavigationLink("AnchorBtCmp") {
+                        AnchorBtCmp()
+                    }
+                    NavigationLink("CustomLayout") {
+                        CustomLayout()
+                    }
+                    NavigationLink("SelectableTable") {
+                        SelectableTable()
+                    }
+                    NavigationLink("KnobCV") {
+                        KnobCV()
+                    }
+                    NavigationLink("ImageLoader") {
+                        ImageLoader()
+                    }
+                    
+                }
+            }
+            
         }
-        .padding()
     }
 }
+
 
 #Preview {
     ContentView()
