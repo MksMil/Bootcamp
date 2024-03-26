@@ -44,6 +44,9 @@ struct ContentView: View {
                     NavigationLink("chattest") {
                         chattest()
                     }
+                    NavigationLink("DrawingWithCanvas") {
+                        DrawingWithCanvas()
+                    }
                 }
                 Section("SUI thinking") {
                     NavigationLink("Animations") {

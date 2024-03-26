@@ -53,6 +53,9 @@
 		29D20D522BA9A1F300ED579B /* ExploreTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D20D512BA9A1F300ED579B /* ExploreTab.swift */; };
 		29D20D562BA9E99000ED579B /* CustomLayoutPROSUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D20D552BA9E99000ED579B /* CustomLayoutPROSUI.swift */; };
 		29D20D592BAC36B900ED579B /* DrawingWithCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D20D582BAC36B900ED579B /* DrawingWithCanvas.swift */; };
+		29D20D5B2BADA83F00ED579B /* FallingSnow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D20D5A2BADA83F00ED579B /* FallingSnow.swift */; };
+		29D20D5D2BB2F0AD00ED579B /* BackTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D20D5C2BB2F0AC00ED579B /* BackTest.swift */; };
+		29D20D5F2BB31F5A00ED579B /* LavaLamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D20D5E2BB31F5A00ED579B /* LavaLamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -102,6 +105,9 @@
 		29D20D512BA9A1F300ED579B /* ExploreTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreTab.swift; sourceTree = "<group>"; };
 		29D20D552BA9E99000ED579B /* CustomLayoutPROSUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayoutPROSUI.swift; sourceTree = "<group>"; };
 		29D20D582BAC36B900ED579B /* DrawingWithCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingWithCanvas.swift; sourceTree = "<group>"; };
+		29D20D5A2BADA83F00ED579B /* FallingSnow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingSnow.swift; sourceTree = "<group>"; };
+		29D20D5C2BB2F0AC00ED579B /* BackTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackTest.swift; sourceTree = "<group>"; };
+		29D20D5E2BB31F5A00ED579B /* LavaLamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LavaLamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +177,7 @@
 				29786CCA2B92EBBB00194932 /* FirstView.swift */,
 				29786CCC2B92EC3400194932 /* SecondView.swift */,
 				29786CCE2B92EC7100194932 /* Finalview.swift */,
+				29D20D5C2BB2F0AC00ED579B /* BackTest.swift */,
 			);
 			path = SampleViews;
 			sourceTree = "<group>";
@@ -324,6 +331,8 @@
 			isa = PBXGroup;
 			children = (
 				29D20D582BAC36B900ED579B /* DrawingWithCanvas.swift */,
+				29D20D5A2BADA83F00ED579B /* FallingSnow.swift */,
+				29D20D5E2BB31F5A00ED579B /* LavaLamp.swift */,
 			);
 			path = Drawing;
 			sourceTree = "<group>";
@@ -414,6 +423,7 @@
 				29786CEC2B9BBF3300194932 /* MyGrid.swift in Sources */,
 				29786CB62B92DE3400194932 /* ContentView.swift in Sources */,
 				29786D082B9F3DA400194932 /* ScrollViewColor.swift in Sources */,
+				29D20D5D2BB2F0AD00ED579B /* BackTest.swift in Sources */,
 				29786CFA2B9D739700194932 /* CustomLayout.swift in Sources */,
 				29786D0C2BA091B800194932 /* chattest.swift in Sources */,
 				29D20D562BA9E99000ED579B /* CustomLayoutPROSUI.swift in Sources */,
@@ -422,6 +432,7 @@
 				29D20D522BA9A1F300ED579B /* ExploreTab.swift in Sources */,
 				29786CCB2B92EBBB00194932 /* FirstView.swift in Sources */,
 				29786CFC2B9D910800194932 /* SelectableTable.swift in Sources */,
+				29D20D5F2BB31F5A00ED579B /* LavaLamp.swift in Sources */,
 				29786D142BA2B1BD00194932 /* CircleGrid.swift in Sources */,
 				29786CC52B92DF7900194932 /* StateManager.swift in Sources */,
 				29786D032B9F022900194932 /* PathAnimation.swift in Sources */,
@@ -444,6 +455,7 @@
 				29786CEE2B9C03F600194932 /* Ext+View_Measured.swift in Sources */,
 				29786D0A2BA087F600194932 /* IdentityUnderstanding.swift in Sources */,
 				29786CE72B9B93C900194932 /* MatchGeoEffect.swift in Sources */,
+				29D20D5B2BADA83F00ED579B /* FallingSnow.swift in Sources */,
 				29786CB42B92DE3400194932 /* BootcampApp.swift in Sources */,
 				29786CCF2B92EC7100194932 /* Finalview.swift in Sources */,
 				29786D062B9F293600194932 /* ParentsAndChildren.swift in Sources */,
