@@ -40,6 +40,7 @@ struct LavaLamp: View {
                         //create symbols here
                         ForEach(parcticleSystem.particles) { particle in
                             Circle()
+//                            AnimatingPolygon()
                                 .frame(width: particle.size, height: particle.size)
                         }
                     }
@@ -62,6 +63,7 @@ struct LavaLamp: View {
 
 #Preview {
     LavaLamp()
+//    AnimatingPolygon()
 }
 
 // MARK: - LavaLampParcticle
@@ -105,3 +107,68 @@ class LavaLampParticleSystem {
     }
 }
 
+// MARK: - Array Extension
+extension Array: VectorArithmetic, AdditiveArithmetic where Element == Double {
+    public mutating func scale(by rhs: Double) {
+      for (index, item) in self.enumerated() {
+        self[index] = item * rhs
+      }
+    }
+    public static func -(lhs: [Double], rhs: [Double]) -> [Double]{
+        []
+    }
+    
+    public var magnitudeSquared: Double { 0 }
+    
+    public static func +=(lhs: inout [Double], rhs: [Double]) {
+      for (index, item) in rhs.enumerated() {
+        lhs[index] += item
+      }
+    }
+    public static func -=(lhs: inout [Double], rhs: [Double]) {
+      for (index, item) in rhs.enumerated() {
+        lhs[index] -= item
+      }
+    }
+    
+    public static var zero: Array<Double> = [0.0]
+}
+
+// MARK: - AnimatablePolygonShape
+struct AnimatablePolygonShape: Shape {
+    var animatableData: [Double]
+    init(points: [Double]) {
+        animatableData = points
+    }
+    func path(in rect: CGRect) -> Path {
+        Path { path in
+            // more code to come
+            let center =  CGPoint(x: rect.width / 2, y: rect.height / 2)
+            let radius = min(center.x, center.y)
+            let lines = animatableData.enumerated().map { index, value in
+              let fraction = Double(index) / Double(animatableData.count)
+              let xPos = center.x + radius * cos(fraction * .pi * 2)
+              let yPos = center.y + radius * sin(fraction * .pi * 2)
+              return CGPoint(x: xPos /** value*/, y: yPos /** value*/)
+            }
+            path.addLines(lines)
+        }
+    }
+}
+
+// MARK: - AnimatingPolygon
+struct AnimatingPolygon: View {
+    @State private var points = Self.makePoints()
+    @State private var timer = Timer.publish(every: 1, tolerance: 1, on: .main, in: .common).autoconnect()
+    
+    var body: some View {
+        AnimatablePolygonShape(points: points)
+            .animation(.easeInOut(duration: 3), value: points)
+            .onReceive(timer) { date in
+                points = Self.makePoints()
+            }
+    }
+    static func makePoints() -> [Double] {
+        (0..<8).map { _ in .random(in: 0.8...1.2) }
+    }
+}

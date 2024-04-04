@@ -47,6 +47,21 @@ struct ContentView: View {
                     NavigationLink("DrawingWithCanvas") {
                         DrawingWithCanvas()
                     }
+                    NavigationLink("Falling Snow") {
+                        FallingSnow()
+                    }
+                    NavigationLink("Lava Lamp") {
+                        LavaLamp()
+                    }
+                    NavigationLink("WaterEffectShow") {
+                        WaterEffectShow()
+                    }
+                    NavigationLink("BlurredBackgrounds") {
+                        BlurredBackgrounds()
+                    }
+                    NavigationLink("KeyboardBarDemo") {
+                        KeyboardBarDemo()
+                    }
                 }
                 Section("SUI thinking") {
                     NavigationLink("Animations") {
@@ -82,7 +97,7 @@ struct ContentView: View {
                     NavigationLink("ImageLoader") {
                         ImageLoader()
                     }
-                    
+                  
                 }
             }
             

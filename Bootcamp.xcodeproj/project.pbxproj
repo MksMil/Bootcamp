@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2951B57A2BBADE3900D2A963 /* WaterEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2951B5792BBADE3900D2A963 /* WaterEffect.swift */; };
+		2951B57C2BBBD22C00D2A963 /* KeyboardBarDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2951B57B2BBBD22C00D2A963 /* KeyboardBarDemo.swift */; };
+		2951B57E2BBBDDF700D2A963 /* PerformanceShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2951B57D2BBBDDF700D2A963 /* PerformanceShow.swift */; };
+		2951B5802BBC17ED00D2A963 /* OnAppearOpt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2951B57F2BBC17ED00D2A963 /* OnAppearOpt.swift */; };
+		2951B5822BBC1D6B00D2A963 /* Ext+Color+RandomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2951B5812BBC1D6B00D2A963 /* Ext+Color+RandomColor.swift */; };
+		2951B5842BBC1E4200D2A963 /* AvoidAutoRefreshing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2951B5832BBC1E4200D2A963 /* AvoidAutoRefreshing.swift */; };
+		2951B5862BBC228700D2A963 /* Ext+View+DEBUG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2951B5852BBC228700D2A963 /* Ext+View+DEBUG.swift */; };
 		29786CB42B92DE3400194932 /* BootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29786CB32B92DE3400194932 /* BootcampApp.swift */; };
 		29786CB62B92DE3400194932 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29786CB52B92DE3400194932 /* ContentView.swift */; };
 		29786CB82B92DE3700194932 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29786CB72B92DE3700194932 /* Assets.xcassets */; };
@@ -17,7 +24,6 @@
 		29786CCB2B92EBBB00194932 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29786CCA2B92EBBB00194932 /* FirstView.swift */; };
 		29786CCD2B92EC3400194932 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29786CCC2B92EC3400194932 /* SecondView.swift */; };
 		29786CCF2B92EC7100194932 /* Finalview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29786CCE2B92EC7100194932 /* Finalview.swift */; };
-		29786CD22B95ACC800194932 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 29786CD12B95ACC800194932 /* Lottie */; };
 		29786CD52B9A3BC600194932 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29786CD42B9A3BC600194932 /* ImageLoader.swift */; };
 		29786CD82B9A415000194932 /* View+debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29786CD72B9A415000194932 /* View+debug.swift */; };
 		29786CDC2B9A443300194932 /* EnvWorks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29786CDB2B9A443300194932 /* EnvWorks.swift */; };
@@ -46,6 +52,9 @@
 		29786D122BA195D200194932 /* TransactionUseless.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29786D112BA195D200194932 /* TransactionUseless.swift */; };
 		29786D142BA2B1BD00194932 /* CircleGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29786D132BA2B1BD00194932 /* CircleGrid.swift */; };
 		29786D162BA2B82D00194932 /* HeartAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29786D152BA2B82D00194932 /* HeartAnimation.swift */; };
+		29B2FA942BB4537700495A90 /* CustomSpatialModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B2FA932BB4537700495A90 /* CustomSpatialModifier.swift */; };
+		29B2FA962BB4834700495A90 /* BlurredBackgrounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B2FA952BB4834700495A90 /* BlurredBackgrounds.swift */; };
+		29B2FA992BB4AB1500495A90 /* SwiftfulRouting in Frameworks */ = {isa = PBXBuildFile; productRef = 29B2FA982BB4AB1500495A90 /* SwiftfulRouting */; };
 		29D20D492BA3250300ED579B /* EnvironmentBtCmp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D20D482BA3250300ED579B /* EnvironmentBtCmp.swift */; };
 		29D20D4B2BA85EF600ED579B /* EnvObjAndEnvValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D20D4A2BA85EF600ED579B /* EnvObjAndEnvValue.swift */; };
 		29D20D4D2BA97B2900ED579B /* OverrideTheEnv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D20D4C2BA97B2900ED579B /* OverrideTheEnv.swift */; };
@@ -59,6 +68,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2951B5792BBADE3900D2A963 /* WaterEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterEffect.swift; sourceTree = "<group>"; };
+		2951B57B2BBBD22C00D2A963 /* KeyboardBarDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardBarDemo.swift; sourceTree = "<group>"; };
+		2951B57D2BBBDDF700D2A963 /* PerformanceShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceShow.swift; sourceTree = "<group>"; };
+		2951B57F2BBC17ED00D2A963 /* OnAppearOpt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearOpt.swift; sourceTree = "<group>"; };
+		2951B5812BBC1D6B00D2A963 /* Ext+Color+RandomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+Color+RandomColor.swift"; sourceTree = "<group>"; };
+		2951B5832BBC1E4200D2A963 /* AvoidAutoRefreshing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvoidAutoRefreshing.swift; sourceTree = "<group>"; };
+		2951B5852BBC228700D2A963 /* Ext+View+DEBUG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+View+DEBUG.swift"; sourceTree = "<group>"; };
 		29786CB02B92DE3400194932 /* Bootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29786CB32B92DE3400194932 /* BootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampApp.swift; sourceTree = "<group>"; };
 		29786CB52B92DE3400194932 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +114,8 @@
 		29786D112BA195D200194932 /* TransactionUseless.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionUseless.swift; sourceTree = "<group>"; };
 		29786D132BA2B1BD00194932 /* CircleGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGrid.swift; sourceTree = "<group>"; };
 		29786D152BA2B82D00194932 /* HeartAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartAnimation.swift; sourceTree = "<group>"; };
+		29B2FA932BB4537700495A90 /* CustomSpatialModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSpatialModifier.swift; sourceTree = "<group>"; };
+		29B2FA952BB4834700495A90 /* BlurredBackgrounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurredBackgrounds.swift; sourceTree = "<group>"; };
 		29D20D482BA3250300ED579B /* EnvironmentBtCmp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentBtCmp.swift; sourceTree = "<group>"; };
 		29D20D4A2BA85EF600ED579B /* EnvObjAndEnvValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvObjAndEnvValue.swift; sourceTree = "<group>"; };
 		29D20D4C2BA97B2900ED579B /* OverrideTheEnv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverrideTheEnv.swift; sourceTree = "<group>"; };
@@ -115,7 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29786CD22B95ACC800194932 /* Lottie in Frameworks */,
+				29B2FA992BB4AB1500495A90 /* SwiftfulRouting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +196,8 @@
 				29786CCC2B92EC3400194932 /* SecondView.swift */,
 				29786CCE2B92EC7100194932 /* Finalview.swift */,
 				29D20D5C2BB2F0AC00ED579B /* BackTest.swift */,
+				29B2FA932BB4537700495A90 /* CustomSpatialModifier.swift */,
+				2951B57B2BBBD22C00D2A963 /* KeyboardBarDemo.swift */,
 			);
 			path = SampleViews;
 			sourceTree = "<group>";
@@ -282,6 +302,11 @@
 				29D20D472BA324DB00ED579B /* Environment */,
 				29786D0E2BA15CC300194932 /* AnimationAndTransition */,
 				29786D0D2BA15CA500194932 /* LayoutAndIdentity */,
+				2951B57D2BBBDDF700D2A963 /* PerformanceShow.swift */,
+				2951B57F2BBC17ED00D2A963 /* OnAppearOpt.swift */,
+				2951B5812BBC1D6B00D2A963 /* Ext+Color+RandomColor.swift */,
+				2951B5832BBC1E4200D2A963 /* AvoidAutoRefreshing.swift */,
+				2951B5852BBC228700D2A963 /* Ext+View+DEBUG.swift */,
 			);
 			path = ProSUI;
 			sourceTree = "<group>";
@@ -333,6 +358,8 @@
 				29D20D582BAC36B900ED579B /* DrawingWithCanvas.swift */,
 				29D20D5A2BADA83F00ED579B /* FallingSnow.swift */,
 				29D20D5E2BB31F5A00ED579B /* LavaLamp.swift */,
+				29B2FA952BB4834700495A90 /* BlurredBackgrounds.swift */,
+				2951B5792BBADE3900D2A963 /* WaterEffect.swift */,
 			);
 			path = Drawing;
 			sourceTree = "<group>";
@@ -354,7 +381,7 @@
 			);
 			name = Bootcamp;
 			packageProductDependencies = (
-				29786CD12B95ACC800194932 /* Lottie */,
+				29B2FA982BB4AB1500495A90 /* SwiftfulRouting */,
 			);
 			productName = Bootcamp;
 			productReference = 29786CB02B92DE3400194932 /* Bootcamp.app */;
@@ -386,6 +413,7 @@
 			mainGroup = 29786CA72B92DE3400194932;
 			packageReferences = (
 				29786CD02B95ACC800194932 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				29B2FA972BB4AB1500495A90 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */,
 			);
 			productRefGroup = 29786CB12B92DE3400194932 /* Products */;
 			projectDirPath = "";
@@ -415,10 +443,12 @@
 			files = (
 				29D20D492BA3250300ED579B /* EnvironmentBtCmp.swift in Sources */,
 				29786D012B9EF0B400194932 /* CustomAnimations.swift in Sources */,
+				29B2FA942BB4537700495A90 /* CustomSpatialModifier.swift in Sources */,
 				29786CE52B9B278B00194932 /* MeasureBehavior.swift in Sources */,
 				29D20D4B2BA85EF600ED579B /* EnvObjAndEnvValue.swift in Sources */,
 				29786CD82B9A415000194932 /* View+debug.swift in Sources */,
 				29786CDC2B9A443300194932 /* EnvWorks.swift in Sources */,
+				2951B5842BBC1E4200D2A963 /* AvoidAutoRefreshing.swift in Sources */,
 				29786CCD2B92EC3400194932 /* SecondView.swift in Sources */,
 				29786CEC2B9BBF3300194932 /* MyGrid.swift in Sources */,
 				29786CB62B92DE3400194932 /* ContentView.swift in Sources */,
@@ -430,6 +460,7 @@
 				29D20D4D2BA97B2900ED579B /* OverrideTheEnv.swift in Sources */,
 				29D20D502BA97CB000ED579B /* PrefferencesPROSUI.swift in Sources */,
 				29D20D522BA9A1F300ED579B /* ExploreTab.swift in Sources */,
+				2951B57E2BBBDDF700D2A963 /* PerformanceShow.swift in Sources */,
 				29786CCB2B92EBBB00194932 /* FirstView.swift in Sources */,
 				29786CFC2B9D910800194932 /* SelectableTable.swift in Sources */,
 				29D20D5F2BB31F5A00ED579B /* LavaLamp.swift in Sources */,
@@ -443,16 +474,22 @@
 				29786CE92B9BB14E00194932 /* CustomAlignment.swift in Sources */,
 				29786D102BA15CFF00194932 /* Unanimatable.swift in Sources */,
 				29786D122BA195D200194932 /* TransactionUseless.swift in Sources */,
+				2951B5822BBC1D6B00D2A963 /* Ext+Color+RandomColor.swift in Sources */,
+				2951B57C2BBBD22C00D2A963 /* KeyboardBarDemo.swift in Sources */,
 				29786CE22B9AF1FF00194932 /* PrefCV.swift in Sources */,
+				2951B5862BBC228700D2A963 /* Ext+View+DEBUG.swift in Sources */,
 				29786D162BA2B82D00194932 /* HeartAnimation.swift in Sources */,
 				29786CF42B9C366E00194932 /* CustomBadge.swift in Sources */,
 				29786CF82B9CF2F900194932 /* AnchorBtCmp.swift in Sources */,
+				2951B5802BBC17ED00D2A963 /* OnAppearOpt.swift in Sources */,
 				29786CC32B92DF6600194932 /* StatedRootView.swift in Sources */,
 				29786CF02B9C16B600194932 /* ButtonStyleBtCmp.swift in Sources */,
 				29786CFF2B9E9CA800194932 /* Animations.swift in Sources */,
+				29B2FA962BB4834700495A90 /* BlurredBackgrounds.swift in Sources */,
 				29D20D592BAC36B900ED579B /* DrawingWithCanvas.swift in Sources */,
 				29786CF62B9CCEE200194932 /* GeoReader+PrefKey.swift in Sources */,
 				29786CEE2B9C03F600194932 /* Ext+View_Measured.swift in Sources */,
+				2951B57A2BBADE3900D2A963 /* WaterEffect.swift in Sources */,
 				29786D0A2BA087F600194932 /* IdentityUnderstanding.swift in Sources */,
 				29786CE72B9B93C900194932 /* MatchGeoEffect.swift in Sources */,
 				29D20D5B2BADA83F00ED579B /* FallingSnow.swift in Sources */,
@@ -676,13 +713,21 @@
 				minimumVersion = 4.4.1;
 			};
 		};
+		29B2FA972BB4AB1500495A90 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftfulThinking/SwiftfulRouting.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.3.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		29786CD12B95ACC800194932 /* Lottie */ = {
+		29B2FA982BB4AB1500495A90 /* SwiftfulRouting */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 29786CD02B95ACC800194932 /* XCRemoteSwiftPackageReference "lottie-spm" */;
-			productName = Lottie;
+			package = 29B2FA972BB4AB1500495A90 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */;
+			productName = SwiftfulRouting;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
